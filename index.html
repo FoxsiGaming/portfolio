@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaarel Leetsaar</title>
+  <meta name="description" content="Kaarel Leetsaar — tarkvaraarendaja ja loominguline mõtleja Tartust. Portfolio, oskused ja projektid.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAVIGATION ════════════════════════════════════ -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">KL</a>
+
+  <ul class="nav-links">
+    <li><a href="#about">
+      <span class="lang-et">Minust</span>
+      <span class="lang-en">About</span>
+    </a></li>
+    <li><a href="#education">
+      <span class="lang-et">Haridus</span>
+      <span class="lang-en">Education</span>
+    </a></li>
+    <li><a href="#skills">
+      <span class="lang-et">Oskused</span>
+      <span class="lang-en">Skills</span>
+    </a></li>
+    <li><a href="#competitions">
+      <span class="lang-et">Võistlused</span>
+      <span class="lang-en">Competitions</span>
+    </a></li>
+    <li><a href="#hobbies">
+      <span class="lang-et">Hobid</span>
+      <span class="lang-en">Hobbies</span>
+    </a></li>
+    <li><a href="#gallery">
+      <span class="lang-et">Galerii</span>
+      <span class="lang-en">Gallery</span>
+    </a></li>
+    <li><a href="#contact">
+      <span class="lang-et">Kontakt</span>
+      <span class="lang-en">Contact</span>
+    </a></li>
+  </ul>
+
+  <div class="lang-toggle">
+    <button class="lang-btn active" id="btn-et" onclick="setLang('et')">ET</button>
+    <span class="lang-div">/</span>
+    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+  </div>
+</nav>
+
+<!-- ═══ HERO ══════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-greeting">
+      <span class="lang-et">Tere, mina olen</span>
+      <span class="lang-en">Hi, I'm</span>
+    </div>
+    <h1 class="hero-name">Kaarel<br>Leetsaar</h1>
+    <p class="hero-sub">
+      <span class="lang-et">Tarkvaraarendaja &amp; loominguline mõtleja · Tartu Rakenduslik Kolledž</span>
+      <span class="lang-en">Software Engineer &amp; Creative Thinker · Tartu University of Applied Sciences</span>
+    </p>
+  </div>
+
+  <div class="hero-scroll">
+    <span class="lang-et">Keri</span>
+    <span class="lang-en">Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═════════════════════════════════════════ -->
+<section id="about">
+  <p class="s-label reveal">
+    <span class="lang-et">01 — Minust</span>
+    <span class="lang-en">01 — About</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Kes ma olen</span>
+    <span class="lang-en">Who I am</span>
+  </h2>
+
+  <div class="about-grid">
+    <div class="about-text reveal reveal-d2">
+      <p>
+        <span class="lang-et">Olen <strong>17-aastane</strong> noormees Tartust, kes õpib <strong>Tartu Rakendus&shy;likus Kolledžis</strong> infotehnoloogia arendus erialal (ITA25).</span>
+        <span class="lang-en">I'm a <strong>17-year-old</strong> from Tartu, currently studying <strong>Software Engineering</strong> at Tartu University of Applied Sciences (ITA25).</span>
+      </p>
+      <p>
+        <span class="lang-et">Mulle meeldib lahendada probleeme nii digitaalses maailmas kui ka päriselus — kombineerides loogilise mõtlemise loomingulise pilguga. Olgu selleks tarkvaraarendus, disain või autofotograafia.</span>
+        <span class="lang-en">I enjoy solving problems in both the digital world and real life — combining logical thinking with a creative eye, whether that's software development, design, or car photography.</span>
+      </p>
+      <p>
+        <span class="lang-et">Lõpetasin <strong>Tartu Tamme Põhikooli</strong> 2025. aastal ning jätkan nüüd oma teekonda IT-valdkonnas.</span>
+        <span class="lang-en">I graduated from <strong>Tartu Tamme Basic School</strong> in 2025 and am now continuing my journey in IT.</span>
+      </p>
+    </div>
+
+    <div class="reveal reveal-d3">
+      <img src="photos/me.jpg" alt="Kaarel Leetsaar" class="about-photo" loading="lazy" decoding="async">
+      <div class="stats-box">
+        <div class="stat">
+          <div class="stat-n">17</div>
+          <div class="stat-l">
+            <span class="lang-et">aastat vana</span>
+            <span class="lang-en">years old</span>
+          </div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">3+</div>
+          <div class="stat-l">
+            <span class="lang-et">aastat discgolfi</span>
+            <span class="lang-en">years disc golf</span>
+          </div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">10</div>
+          <div class="stat-l">
+            <span class="lang-et">aastat ujumist</span>
+            <span class="lang-en">years swimming</span>
+          </div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">ITA25</div>
+          <div class="stat-l">
+            <span class="lang-et">tarkvaraarendus</span>
+            <span class="lang-en">software engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EDUCATION ═════════════════════════════════════ -->
+<section id="education">
+  <p class="s-label reveal">
+    <span class="lang-et">02 — Haridus</span>
+    <span class="lang-en">02 — Education</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Õpingud</span>
+    <span class="lang-en">Studies</span>
+  </h2>
+
+  <div class="timeline">
+    <div class="tl-item reveal reveal-d1">
+      <div class="tl-dot"></div>
+      <div class="tl-period">
+        2025 — <span class="lang-et">praegu</span><span class="lang-en">present</span>
+      </div>
+      <div class="tl-name">Tartu Rakenduslik Kolledž</div>
+      <div class="tl-sub">
+        <span class="lang-et">Infotehnoloogia arendus · ITA25</span>
+        <span class="lang-en">Software Engineering · ITA25</span>
+      </div>
+      <div class="tl-desc">
+        <span class="lang-et">Õpin tarkvaraarendust, programmeerimist, andmebaase ning kaasaegseid arendusmeetodeid ja -tööriistu.</span>
+        <span class="lang-en">Studying software development, programming, databases and modern development methodologies and tools.</span>
+      </div>
+    </div>
+
+    <div class="tl-item reveal reveal-d2">
+      <div class="tl-dot"></div>
+      <div class="tl-period">2016 — 2025</div>
+      <div class="tl-name">Tartu Tamme Põhikool</div>
+      <div class="tl-sub">
+        <span class="lang-et">Põhiharidus · lõpetasin 2025</span>
+        <span class="lang-en">Basic Education · graduated 2025</span>
+      </div>
+      <div class="tl-desc">
+        <span class="lang-et">Sain põhihariduse Tartu Tamme Põhikoolis, kus kujunesid minu huvi loodusteaduste ning tehnoloogia vastu.</span>
+        <span class="lang-en">Completed basic education at Tartu Tamme Basic School, where my interest in science and technology first grew.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WORK EXPERIENCE ═══════════════════════════════ -->
+<section id="experience">
+  <p class="s-label reveal">
+    <span class="lang-et">03 — Töökogemus</span>
+    <span class="lang-en">03 — Experience</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Töökogemus</span>
+    <span class="lang-en">Work Experience</span>
+  </h2>
+
+  <div class="work-grid reveal reveal-d2">
+    <div class="work-item">
+      <div>
+        <div class="work-role">
+          <span class="lang-et">Tarkvaraarendaja praktikant</span>
+          <span class="lang-en">Software Engineer (Student)</span>
+        </div>
+        <div class="work-place">Tartu Rakenduslik Kolledž · Tartu</div>
+        <div class="work-desc">
+          <span class="lang-et">Õpin tarkvaraarendust ITA25 erialal — programmeerimist, andmebaase ja arendusmeetodeid.</span>
+          <span class="lang-en">Studying software development on the ITA25 programme — programming, databases and development methodologies.</span>
+        </div>
+      </div>
+      <div class="work-period">09/2025 — <span class="lang-et">praegu</span><span class="lang-en">present</span></div>
+    </div>
+
+    <div class="work-item">
+      <div>
+        <div class="work-role">
+          <span class="lang-et">Ehitustööline</span>
+          <span class="lang-en">Building Handyperson</span>
+        </div>
+        <div class="work-place">Roosi Discgolf Park · Tartu</div>
+        <div class="work-desc">
+          <span class="lang-et">Ehitustööd ja raja korrashoiu töid discgolfipargis.</span>
+          <span class="lang-en">Building and maintenance work at a disc golf course.</span>
+        </div>
+      </div>
+      <div class="work-period">03/2025</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ LANGUAGES ════════════════════════════════════ -->
+<section id="languages" style="padding-top: 0;">
+  <p class="s-label reveal">
+    <span class="lang-et">03b — Keeled</span>
+    <span class="lang-en">03b — Languages</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Keeleoskus</span>
+    <span class="lang-en">Language Skills</span>
+  </h2>
+
+  <div class="lang-grid reveal reveal-d2">
+    <div class="lang-item">
+      <div class="lang-name"><span class="lang-et">Eesti keel</span><span class="lang-en">Estonian</span></div>
+      <div class="lang-level"><span class="lang-et">Emakeel</span><span class="lang-en">Mother tongue</span></div>
+      <div class="lang-bars">
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Kuulamine</span><span class="lang-en">Listening</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:100%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Lugemine</span><span class="lang-en">Reading</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:100%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Rääkimine</span><span class="lang-en">Speaking</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:100%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Kirjutamine</span><span class="lang-en">Writing</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:100%"></div></div></div>
+      </div>
+    </div>
+    <div class="lang-item">
+      <div class="lang-name"><span class="lang-et">Inglise keel</span><span class="lang-en">English</span></div>
+      <div class="lang-level">B2 / C1</div>
+      <div class="lang-bars">
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Kuulamine</span><span class="lang-en">Listening</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:85%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Lugemine</span><span class="lang-en">Reading</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:85%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Rääkimine</span><span class="lang-en">Speaking</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:70%"></div></div></div>
+        <div class="lang-bar-row"><span class="lang-bar-label"><span class="lang-et">Kirjutamine</span><span class="lang-en">Writing</span></span><div class="lang-bar-track"><div class="lang-bar-fill" style="width:70%"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS ════════════════════════════════════════ -->
+<section id="skills">
+  <p class="s-label reveal">
+    <span class="lang-et">04 — Oskused</span>
+    <span class="lang-en">04 — Skills</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Mida ma oskan</span>
+    <span class="lang-en">What I know</span>
+  </h2>
+
+  <div class="skills-grid reveal reveal-d2">
+    <div class="sk"><div class="sk-icon">🌐</div><div class="sk-name">HTML / CSS</div></div>
+    <div class="sk"><div class="sk-icon">⚡</div><div class="sk-name">JavaScript</div></div>
+    <div class="sk"><div class="sk-icon">🐍</div><div class="sk-name">Python</div></div>
+    <div class="sk"><div class="sk-icon">🐧</div><div class="sk-name">Linux</div></div>
+    <div class="sk">
+      <div class="sk-icon">🗄️</div>
+      <div class="sk-name">
+        <span class="lang-et">Andmebaasid</span>
+        <span class="lang-en">Databases</span>
+      </div>
+    </div>
+    <div class="sk"><div class="sk-icon">📊</div><div class="sk-name">Microsoft Office</div></div>
+    <div class="sk"><div class="sk-icon">☁️</div><div class="sk-name">Google Drive</div></div>
+    <div class="sk"><div class="sk-icon">🔗</div><div class="sk-name">LinkedIn</div></div>
+    <div class="sk">
+      <div class="sk-icon">📷</div>
+      <div class="sk-name">
+        <span class="lang-et">Fotograafia</span>
+        <span class="lang-en">Photography</span>
+      </div>
+    </div>
+    <div class="sk">
+      <div class="sk-icon">🎨</div>
+      <div class="sk-name">
+        <span class="lang-et">Disain</span>
+        <span class="lang-en">Design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COMPETITIONS ══════════════════════════════════ -->
+<section id="competitions">
+  <p class="s-label reveal">
+    <span class="lang-et">05 — Võistlused</span>
+    <span class="lang-en">05 — Competitions</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Küberjulgeoleku võistlused</span>
+    <span class="lang-en">Cybersecurity Competitions</span>
+  </h2>
+
+  <div class="comp-grid reveal reveal-d2">
+
+    <div class="comp-card">
+      <div class="comp-tag">CTF</div>
+      <div class="comp-name">Küberpuuring 2024</div>
+      <div class="comp-date">04/12/2024</div>
+      <div class="comp-desc">
+        <span class="lang-et">Osalesin Eesti riiklikus küberjulgeoleku CTF-i võistlusel Küberpuuring 2024. Lahendada tuli mitmeid küberjulgeolekuga seotud ülesandeid eri kategooriates.</span>
+        <span class="lang-en">Participated in the Estonian national cybersecurity CTF competition Küberpuuring 2024, solving challenges across multiple cybersecurity categories.</span>
+      </div>
+    </div>
+
+    <div class="comp-card">
+      <div class="comp-tag">CTF</div>
+      <div class="comp-name">Küberpuuring 2025</div>
+      <div class="comp-date">26/11/2025</div>
+      <div class="comp-desc">
+        <span class="lang-et">Osalesin teist korda Küberpuuringul — seekord suurema kogemuse ning parema tulemusega kui aasta varem.</span>
+        <span class="lang-en">Competed in Küberpuuring for a second time, bringing more experience and achieving a stronger result than the previous year.</span>
+      </div>
+    </div>
+
+    <div class="comp-card">
+      <div class="comp-tag">CTF</div>
+      <div class="comp-name">Säkerhets-SM 2026</div>
+      <div class="comp-date">23–25/01/2026</div>
+      <div class="comp-desc">
+        <span class="lang-et">Rootsi küberjulgeoleku meistrivõistlused. Rahvusvaheline CTF-i kogemus, kus võistlesin Rootsi kõrgkoolide ja ülikoolide tiimide vastu.</span>
+        <span class="lang-en">The Swedish cybersecurity championship — an international CTF experience competing against teams from Swedish colleges and universities.</span>
+      </div>
+    </div>
+
+    <div class="comp-card">
+      <div class="comp-tag">CTF</div>
+      <div class="comp-name">ASI Karikas 2026</div>
+      <div class="comp-date">13/10/2025 — <span class="lang-et">käimasolev</span><span class="lang-en">ongoing</span></div>
+      <div class="comp-desc">
+        <span class="lang-et">Osalemas Arvamusfestivali sügiskooli karikal — pikaajalisel küberjulgeoleku võistlusel, mis kestab mitu kuud.</span>
+        <span class="lang-en">Participating in the ASI Karikas — a long-running multi-month cybersecurity competition series.</span>
+      </div>
+    </div>
+
+    <div class="comp-card">
+      <div class="comp-tag">
+        <span class="lang-et">Sport</span>
+        <span class="lang-en">Sport</span>
+      </div>
+      <div class="comp-name">
+        <span class="lang-et">TRK Võrkpalliturniirid</span>
+        <span class="lang-en">TRK Volleyball Tournaments</span>
+      </div>
+      <div class="comp-date">10/12/2025 — 21/01/2026</div>
+      <div class="comp-desc">
+        <span class="lang-et">Osalenud mitmel TRK siseses võrkpalliturniiri hooajal — lõbus viis kooli vaimust osa saada ja meeskonnana mängida.</span>
+        <span class="lang-en">Participated in TRK's internal volleyball tournament series — a fun way to engage with school spirit and play as a team.</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ HOBBIES ═══════════════════════════════════════ -->
+<section id="hobbies">
+  <p class="s-label reveal">
+    <span class="lang-et">06 — Hobid</span>
+    <span class="lang-en">06 — Hobbies</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Vaba aeg</span>
+    <span class="lang-en">Free time</span>
+  </h2>
+
+  <div class="hobbies-grid">
+
+    <!-- DISC GOLF -->
+    <div class="hob reveal">
+      <div class="hob-anim">
+        <div class="disc-track">
+          <div class="disc-obj">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="21" cy="21" rx="20" ry="20" fill="#1c1c1c" stroke="#3a3a3a" stroke-width="1.2"/>
+              <ellipse cx="21" cy="21" rx="13" ry="5.5" fill="none" stroke="#4a4a4a" stroke-width="1"/>
+              <ellipse cx="21" cy="21" rx="7" ry="3.5" fill="#252525" stroke="#555" stroke-width="0.8"/>
+              <circle  cx="21" cy="21" r="2.5" fill="#707070"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Discgolf</span>
+        <span class="lang-en">Disc Golf</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">3+ aastat · peamine spordiala</span>
+        <span class="lang-en">3+ years · main sport</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Harrastan discgolfi oma peamise spordialana. Olen külastanud radu üle kogu Eesti — lemmikud on Annikoru discgolfipark, Sportland Elva ja Sportland Roosi. Kõik kolm on tehnilised, kuid Elva ja Annikoru on pikemad ning seetõttu ka lõbusamad.</span>
+        <span class="lang-en">Disc golf is my main sport. I've played courses all across Estonia — my favorites are Annikoru, Sportland Elva and Sportland Roosi. All three are technical, but Elva and Annikoru are longer which makes them more fun.</span>
+      </p>
+    </div>
+
+    <!-- SWIMMING -->
+    <div class="hob reveal reveal-d1">
+      <div class="hob-anim">
+        <div class="swim-wrap">
+          <!-- Wave 1 -->
+          <svg class="swim-wave1" viewBox="0 0 400 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="bottom:0;height:55px;">
+            <path d="M0,28 C33,14 67,42 100,28 C133,14 167,42 200,28 C233,14 267,42 300,28 C333,14 367,42 400,28 L400,60 L0,60 Z" fill="#0f2233"/>
+          </svg>
+          <!-- Wave 2 -->
+          <svg class="swim-wave2" viewBox="0 0 400 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="bottom:0;height:48px;">
+            <path d="M0,32 C40,18 80,46 120,32 C160,18 200,46 240,32 C280,18 320,46 360,32 C380,25 390,36 400,32 L400,60 L0,60 Z" fill="#091828"/>
+          </svg>
+          <!-- Swimmer icon -->
+          <div class="swimmer">
+            <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="5" cy="5" r="4.5" fill="none" stroke="#4a7a9b" stroke-width="1.2"/>
+              <path d="M9,7 Q14,3 18,7 Q22,11 28,7" stroke="#4a7a9b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+              <path d="M12,10 Q16,15 22,12" stroke="#4a7a9b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Ujumine</span>
+        <span class="lang-en">Swimming</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">~10 aastat · 2014–2024</span>
+        <span class="lang-en">~10 years · 2014–2024</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Alustasin ujumisega 5-aastaselt (2014) ning käisin võistlustel alates 2016. aastast kuni 2024. aastani. Ligikaudu 10 aastaga sain palju kogemusi ning enesedistsipliini, enne kui spordiga lõpetasin.</span>
+        <span class="lang-en">I started swimming at age 5 in 2014 and competed from 2016 to 2024. Over those ~10 years I built a lot of experience and self-discipline before finishing my competitive swimming career.</span>
+      </p>
+    </div>
+
+    <!-- GYM -->
+    <div class="hob reveal reveal-d2">
+      <div class="hob-anim">
+        <div class="barbell-wrap">
+          <svg width="118" height="44" viewBox="0 0 118 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- left outer plate -->
+            <rect x="2"  y="6"  width="12" height="32" rx="3.5" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1"/>
+            <!-- left inner plate -->
+            <rect x="4"  y="10" width="8"  height="24" rx="2.5" fill="#141414" stroke="#404040" stroke-width="0.8"/>
+            <!-- bar -->
+            <rect x="16" y="19" width="86" height="6" rx="3" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="0.8"/>
+            <!-- right inner plate -->
+            <rect x="106" y="10" width="8" height="24" rx="2.5" fill="#141414" stroke="#404040" stroke-width="0.8"/>
+            <!-- right outer plate -->
+            <rect x="104" y="6"  width="12" height="32" rx="3.5" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1"/>
+            <!-- grip knurling lines -->
+            <line x1="50" y1="20" x2="50" y2="24" stroke="#555" stroke-width="0.7"/>
+            <line x1="55" y1="20" x2="55" y2="24" stroke="#555" stroke-width="0.7"/>
+            <line x1="60" y1="20" x2="60" y2="24" stroke="#555" stroke-width="0.7"/>
+            <line x1="65" y1="20" x2="65" y2="24" stroke="#555" stroke-width="0.7"/>
+            <line x1="70" y1="20" x2="70" y2="24" stroke="#555" stroke-width="0.7"/>
+          </svg>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Jõusaal</span>
+        <span class="lang-en">Gym</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">Alates nov. 2024</span>
+        <span class="lang-en">Since Nov. 2024</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Jõusaalis käin 2024. aasta novembrist. Kõige rohkem olen siiani arengut näinud seljalihaste piirkonnas ning märkan üleüldist füüsise paranemist.</span>
+        <span class="lang-en">I've been going to the gym since November 2024. I've seen the most progress in my back muscles and notice a general improvement in overall physique.</span>
+      </p>
+    </div>
+
+    <!-- VOLLEYBALL -->
+    <div class="hob reveal reveal-d3">
+      <div class="hob-anim">
+        <div class="vball-wrap">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="vball-obj">
+            <!-- ball -->
+            <circle cx="30" cy="30" r="26" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.2"/>
+            <!-- seam arcs -->
+            <path d="M10,20 Q30,10 50,20" stroke="#505050" stroke-width="1.3" fill="none"/>
+            <path d="M10,40 Q30,50 50,40" stroke="#505050" stroke-width="1.3" fill="none"/>
+            <path d="M15,10 Q10,30 15,50" stroke="#505050" stroke-width="1.3" fill="none"/>
+            <path d="M45,10 Q50,30 45,50" stroke="#505050" stroke-width="1.3" fill="none"/>
+            <path d="M8,30 Q30,20 52,30" stroke="#505050" stroke-width="1.3" fill="none"/>
+          </svg>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Võrkpall</span>
+        <span class="lang-en">Volleyball</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">Alates 2025</span>
+        <span class="lang-en">Since 2025</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Mängin võrkpalli TRK-s nii vabal ajal kui ka koolisisestel turniiridel. Meeldib see spordiala just meeskondliku mängu ja kiire tempuse tõttu.</span>
+        <span class="lang-en">I play volleyball at TRK both casually and in school tournaments. I enjoy it for the teamwork and fast pace of the game.</span>
+      </p>
+    </div>
+
+    <!-- SNOWBOARDING -->
+    <div class="hob reveal reveal-d4">
+      <div class="hob-anim">
+        <div class="snow-wrap">
+          <svg width="80" height="50" viewBox="0 0 80 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="snow-obj">
+            <!-- board -->
+            <rect x="8" y="22" width="64" height="8" rx="4" fill="#1c1c1c" stroke="#3c3c3c" stroke-width="1.2"/>
+            <!-- board tip curves -->
+            <ellipse cx="10" cy="26" rx="4" ry="4" fill="#1c1c1c" stroke="#3c3c3c" stroke-width="1"/>
+            <ellipse cx="70" cy="26" rx="4" ry="4" fill="#1c1c1c" stroke="#3c3c3c" stroke-width="1"/>
+            <!-- binding left -->
+            <rect x="22" y="20" width="12" height="12" rx="2" fill="#282828" stroke="#484848" stroke-width="1"/>
+            <!-- binding right -->
+            <rect x="46" y="20" width="12" height="12" rx="2" fill="#282828" stroke="#484848" stroke-width="1"/>
+            <!-- snowflakes -->
+            <text x="2" y="14" font-size="10" fill="#3a4a5a" font-family="sans-serif">❄</text>
+            <text x="66" y="14" font-size="8" fill="#3a4a5a" font-family="sans-serif">❄</text>
+            <text x="36" y="8" font-size="7" fill="#2a3a4a" font-family="sans-serif">❄</text>
+          </svg>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Lumelaud</span>
+        <span class="lang-en">Snowboarding</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">Hooajaline</span>
+        <span class="lang-en">Seasonal</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Talviti naudin lumelauasõitu — kiirus ja vabadus mäenõlval on suurepärane viis talvehooaega veeta.</span>
+        <span class="lang-en">In winter I enjoy snowboarding — the speed and freedom on the slopes make for a great way to spend the winter season.</span>
+      </p>
+    </div>
+
+    <!-- CAR PHOTOGRAPHY -->
+    <div class="hob reveal reveal-d5">
+      <div class="hob-anim">
+        <div class="cam-wrap">
+          <svg width="62" height="52" viewBox="0 0 62 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- body -->
+            <rect x="4"  y="16" width="54" height="32" rx="6" fill="#181818" stroke="#3a3a3a" stroke-width="1.2"/>
+            <!-- viewfinder hump -->
+            <rect x="19" y="9" width="16" height="9" rx="3.5" fill="#181818" stroke="#3a3a3a" stroke-width="1.2"/>
+            <!-- shutter btn -->
+            <circle cx="49" cy="13" r="3.5" fill="#222" stroke="#444" stroke-width="1"/>
+            <!-- lens outer -->
+            <circle cx="31" cy="32" r="12" fill="#0e0e0e" stroke="#484848" stroke-width="1.4"/>
+            <!-- lens ring 1 -->
+            <circle cx="31" cy="32" r="8.5" fill="#0a0a0a" stroke="#3a3a3a" stroke-width="1"/>
+            <!-- lens inner -->
+            <circle cx="31" cy="32" r="5.5" fill="#050505" stroke="#303030" stroke-width="0.8"/>
+            <!-- lens catchlight -->
+            <circle cx="28" cy="29" r="1.8" fill="#1f1f1f"/>
+            <!-- flash -->
+            <rect x="8" y="20" width="7" height="5" rx="1.5" fill="#252525" stroke="#444" stroke-width="0.8"/>
+          </svg>
+          <div class="cam-flash"></div>
+        </div>
+      </div>
+      <div class="hob-title">
+        <span class="lang-et">Autofotograafia</span>
+        <span class="lang-en">Car Photography</span>
+      </div>
+      <div class="hob-period">
+        <span class="lang-et">Mõned aastad</span>
+        <span class="lang-en">A few years</span>
+      </div>
+      <p class="hob-desc">
+        <span class="lang-et">Lisaks aktiivsetele spordialadele naudin autode pildistamist — tegevus, kus loominguline pool ja tähelepanu detailidele pääsevad esile. Tegelen sellega juba paar aastat.</span>
+        <span class="lang-en">Beyond active sports I enjoy car photography — an activity where my creative side and eye for detail really come through. I've been doing it for a couple of years now.</span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ GALLERY ══════════════════════════════════════ -->
+<section id="gallery">
+  <p class="s-label reveal">
+    <span class="lang-et">07 — Galerii</span>
+    <span class="lang-en">07 — Gallery</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Minu fotod</span>
+    <span class="lang-en">My photos</span>
+  </h2>
+
+  <!-- Filter buttons -->
+  <div class="gallery-filters reveal reveal-d2">
+    <button class="gf-btn active" data-filter="all">
+      <span class="lang-et">Kõik</span>
+      <span class="lang-en">All</span>
+    </button>
+    <button class="gf-btn" data-filter="car">
+      <span class="lang-et">Autod</span>
+      <span class="lang-en">Cars</span>
+    </button>
+    <button class="gf-btn" data-filter="discgolf">
+      <span class="lang-et">Discgolf</span>
+      <span class="lang-en">Disc Golf</span>
+    </button>
+    <button class="gf-btn" data-filter="gym">
+      <span class="lang-et">Jõusaal</span>
+      <span class="lang-en">Gym</span>
+    </button>
+    <button class="gf-btn" data-filter="other">
+      <span class="lang-et">Muu</span>
+      <span class="lang-en">Other</span>
+    </button>
+  </div>
+
+  <div class="gallery-grid reveal reveal-d3">
+
+    <!-- ── CAR photos ── -->
+    <div class="g-item" data-category="car" data-caption="Autofotograafia · car1">
+      <img src="photos/car1.jpg" alt="Car photo 1" loading="lazy" decoding="async">
+      <div class="g-label">autod</div>
+    </div>
+
+    <div class="g-item" data-category="car" data-caption="Autofotograafia · car2">
+      <img src="photos/car2.jpg" alt="Car photo 2" loading="lazy" decoding="async">
+      <div class="g-label">autod</div>
+    </div>
+
+    <div class="g-item" data-category="car" data-caption="Autofotograafia · car3">
+      <img src="photos/car3.jpg" alt="Car photo 3" loading="lazy" decoding="async">
+      <div class="g-label">autod</div>
+    </div>
+
+    <div class="g-item" data-category="car" data-caption="Autofotograafia · car4">
+      <img src="photos/car4.jpg" alt="Car photo 4" loading="lazy" decoding="async">
+      <div class="g-label">autod</div>
+    </div>
+
+    <div class="g-item" data-category="car" data-caption="Autofotograafia · car5">
+      <img src="photos/car5.jpg" alt="Car photo 5" loading="lazy" decoding="async">
+      <div class="g-label">autod</div>
+    </div>
+
+    <!-- ── DISC GOLF photos ── -->
+    <div class="g-item" data-category="discgolf" data-caption="Discgolf">
+      <img src="photos/discgolf1.png" alt="Disc golf photo" loading="lazy" decoding="async">
+      <div class="g-label">discgolf</div>
+    </div>
+
+    <!-- ── SWIMMING ── -->
+    <div class="g-item" data-category="other" data-caption="Ujumine / Swimming">
+      <img src="photos/swim1.png" alt="Swimming photo" loading="lazy" decoding="async">
+      <div class="g-label">ujumine</div>
+    </div>
+
+    <!-- ── GENERAL photos ── -->
+    <div class="g-item" data-category="other" data-caption="photo1">
+      <img src="photos/photo1.jpg" alt="Photo 1" loading="lazy" decoding="async">
+      <div class="g-label">muu</div>
+    </div>
+
+    <div class="g-item" data-category="other" data-caption="photo2">
+      <img src="photos/photo2.jpg" alt="Photo 2" loading="lazy" decoding="async">
+      <div class="g-label">muu</div>
+    </div>
+
+    <div class="g-item" data-category="other" data-caption="photo3">
+      <img src="photos/photo3.jpg" alt="Photo 3" loading="lazy" decoding="async">
+      <div class="g-label">muu</div>
+    </div>
+
+    <div class="g-item" data-category="other" data-caption="photo4">
+      <img src="photos/photo4.jpg" alt="Photo 4" loading="lazy" decoding="async">
+      <div class="g-label">muu</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Lightbox overlay ──────────────────────────── -->
+<div id="lightbox">
+  <button id="lb-close" onclick="closeLightbox()">✕</button>
+  <img id="lb-img" src="" alt="">
+  <div id="lb-caption"></div>
+</div>
+
+<!-- ═══ CONTACT ════════════════════════════════════════ -->
+<section id="contact">
+  <p class="s-label reveal">
+    <span class="lang-et">08 — Kontakt</span>
+    <span class="lang-en">08 — Contact</span>
+  </p>
+  <h2 class="s-title reveal reveal-d1">
+    <span class="lang-et">Võta ühendust</span>
+    <span class="lang-en">Get in touch</span>
+  </h2>
+
+  <div class="contact-wrap reveal reveal-d2">
+    <p class="contact-desc">
+      <span class="lang-et">Olgu tegemist projektikoostöö, küsimuste või lihtsalt tervisega — olen alati avatud sõnumile.</span>
+      <span class="lang-en">Whether it's project collaboration, questions or just saying hi — I'm always open to a message.</span>
+    </p>
+    <div class="contact-links">
+      <a href="mailto:kaarel.leetsaar@gmail.com" class="c-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-10 7L2 7"/>
+        </svg>
+        kaarel.leetsaar@gmail.com
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ════════════════════════════════════════ -->
+<footer>
+  <span>
+    <span class="lang-et">© 2025 Kaarel Leetsaar</span>
+    <span class="lang-en">© 2025 Kaarel Leetsaar</span>
+  </span>
+  <span>
+    <span class="lang-et">Tehtud armastusega ✦</span>
+    <span class="lang-en">Made with care ✦</span>
+  </span>
+</footer>
+
+<!-- ═══ SCRIPTS ═══════════════════════════════════════ -->
+<script>
+  // ── Language toggle ──────────────────────────────
+  function setLang(lang) {
+    document.body.classList.toggle('lang-en', lang === 'en');
+    document.documentElement.lang = lang;
+    document.getElementById('btn-et').classList.toggle('active', lang === 'et');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    try { localStorage.setItem('kl-lang', lang); } catch(e) {}
+  }
+  // Restore saved preference
+  try {
+    const saved = localStorage.getItem('kl-lang');
+    if (saved === 'en') setLang('en');
+  } catch(e) {}
+
+  // ── Navbar scroll effect ─────────────────────────
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 60);
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // ── Reveal on scroll ─────────────────────────────
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+  // ── Stagger skill items ───────────────────────────
+  document.querySelectorAll('.sk').forEach((el, i) => {
+    el.style.transitionDelay = `${i * 0.04}s`;
+  });
+
+  // ── Gallery filter ────────────────────────────────
+  document.querySelectorAll('.gf-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.gf-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.g-item').forEach(item => {
+        if (filter === 'all' || item.dataset.category === filter) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  // ── Lightbox ──────────────────────────────────────
+  function openLightbox(img, caption) {
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lb-img');
+    const lbCap = document.getElementById('lb-caption');
+    lbImg.src = img;
+    lbCap.textContent = caption || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  // Open lightbox on clicking a gallery item that has a real image
+  document.querySelectorAll('.g-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const img = item.querySelector('img');
+      if (img) openLightbox(img.src, item.dataset.caption);
+    });
+  });
+
+  // Close on backdrop click or Escape key
+  document.getElementById('lightbox').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeLightbox();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+
+</body>
+</html>
